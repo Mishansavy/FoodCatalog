@@ -1,0 +1,9 @@
+/* @import url("<https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css>"); */
+@tailwind base;
+@tailwind components;
+/* @tailwind utilities; */
+/* .w-40 {
+  height: 20vh;
+  width: 21rem;
+  border-radius: 20px;
+} */
