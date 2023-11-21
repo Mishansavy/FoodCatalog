@@ -10,7 +10,7 @@ function urlFor(source) {
   return builder.image(source);
 }
 
-const Foods = () => {
+const Food = () => {
   const [filteredFoods, setFilteredFoods] = useState(null);
   const { slug } = useParams();
 
@@ -88,4 +88,4 @@ const Foods = () => {
   );
 };
 
-export default Foods;
+export default Food;

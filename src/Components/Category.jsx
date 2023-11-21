@@ -28,6 +28,7 @@ const Category = ({ category }) => {
           className="rounded mt-3 px-5 py-2 text-white"
         >
           View
+          {console.log("first")}
         </button>
       </Link>
     </div>

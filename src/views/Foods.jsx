@@ -17,20 +17,20 @@ const Foods = () => {
   useEffect(() => {
     client
       .fetch(
-        `*[_type == "foods"]{
-					_id,
-      foodName,
-      foodDesc,
-      foodImage{
-        asset->{
+        ` *[_type == "foods"]{
           _id,
-          url
-        },
-      },
-      category->{
-				title
-			}
-    }`
+              foodName,
+              foodDesc,
+              foodImage{
+                asset->{
+                  _id,
+                  url
+                },
+              },
+              category->{
+                title
+              }
+        }`
       )
       .then((data) => setFoods(data))
       .catch(console.error);

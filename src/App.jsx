@@ -2,7 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 //views
 import Home from "./views/Home";
 import About from "./views/About";
-import Foods from "./views/FilteredFoods";
+import Food from "./views/FilteredFoods";
+import Foods from "./views/Foods";
 //Styles
 import "./index.css";
 //Header and Footer
@@ -20,7 +21,7 @@ function App() {
         <Route element={<Home />} path="/" />
         <Route element={<About />} path="/About" />
         <Route element={<Foods />} path="/Foods" />
-        <Route element={<Foods />} path="/FilteredFoods/:slug" />
+        <Route element={<Food />} path="/FilteredFoods/:slug" />
       </Routes>
       <div className="max-w-full">
         <Footer />
