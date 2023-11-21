@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Category = ({ category }) => {
   return (
     <div
-      className="bg-gray-100 rounded-xl p-10 w-full lg:w-1/3"
+      className="bg-gray-100 rounded-xl p-10 w-auto "
       style={{ backgroundColor: `#${category.hexCode}` }}
     >
       {category.image && (
