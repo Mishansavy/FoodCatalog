@@ -9,6 +9,7 @@ import "./index.css";
 //Header and Footer
 import Header from "./Components/NavBar";
 import Footer from "./Components/Footer";
+import { Contributor } from "./views/Contributor";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route element={<Home />} path="/" />
         <Route element={<About />} path="/About" />
         <Route element={<Foods />} path="/Foods" />
+        <Route element={<Contributor />} path="/Contributor" />
         <Route element={<Food />} path="/FilteredFoods/:slug" />
       </Routes>
       <div className="max-w-full">
