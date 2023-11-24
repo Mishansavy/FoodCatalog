@@ -1,6 +1,6 @@
 import { createClient } from "@sanity/client";
 export default createClient({
-  projectId: "2kdh2oos",
+  projectId: "craua8br",
   dataset: "production",
   apiVersion: "2023-11-21",
   token: "",

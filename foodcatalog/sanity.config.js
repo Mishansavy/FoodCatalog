@@ -3,12 +3,11 @@ import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 // import {schemaTypes} from './schemas'
 import schemas from './schemas'
-
-const config = defineConfig({
+export default defineConfig({
   name: 'default',
-  title: 'food-catalog',
+  title: 'backend-food-catalog',
 
-  projectId: '2kdh2oos',
+  projectId: 'craua8br',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
@@ -18,4 +17,3 @@ const config = defineConfig({
     types: schemas.types,
   },
 })
-export default config

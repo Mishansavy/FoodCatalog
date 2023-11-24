@@ -10,6 +10,7 @@ import "./index.css";
 import Header from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import { Contributor } from "./views/Contributor";
+import AddCategory from "./Components/AddCategory";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route element={<About />} path="/About" />
         <Route element={<Foods />} path="/Foods" />
         <Route element={<Contributor />} path="/Contributor" />
+        <Route element={<AddCategory />} path="/AddFoods" />
         <Route element={<Food />} path="/FilteredFoods/:slug" />
       </Routes>
       <div className="max-w-full">
